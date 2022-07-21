@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Calculadora web</title>
 </head>
 <body>
     <div>
         <h1>calculadora web</h1>
         <div id="calculadora">
-            <div id="pantalla"> </div>
-            <div>
-                <div id="boton1"></div>
-                <div id="boton2"></div>
-                <div id="boton3"></div>
-                <div id="boton4"></div>
-                <div id="boton5"></div>
-                <div id="boton6"></div>
-                <div id="boton7"></div>
-                <div id="boton8"></div>
-                <div id="boton9"></div>
-                <div id="boton+"></div>
-                <div id="boton-"></div>
-                <div id="boton*"></div>
-                <div id="boton/"></div>
-                <div id="botonCE"></div>
+            <div id="pantalla">
+                <div id="valor_1">--</div>
+                <div id="signo"></div>
+                <div id="valor_2"></div>
+            </div>
+            <div id="teclado">
+                <div class="boton" id="boton+" onclick="asignar_signo('+')">+</div>
+                <div class="boton" id="boton-" >-</div>
+                <div class="boton" id="boton*" >*</div>
+                <div class="boton" id="boton/" >/</div>
+                <div class="boton" id="botonCE" >CE</div>
+                <div class="boton" id="boton1" onclick="asignar_numero(1)">1</div>
+                <div class="boton" id="boton2" onclick="asignar_numero(2)">2</div>
+                <div class="boton" id="boton3" onclick="asignar_numero(3)">3</div>
+                <div class="boton" id="boton4" onclick="asignar_numero(4)">4</div>
+                <div class="boton" id="boton5" onclick="asignar_numero(5)">5</div>
+                <div class="boton" id="boton6" onclick="asignar_numero(6)">6</div>
+                <div class="boton" id="boton7" onclick="asignar_numero(7)">7</div>
+                <div class="boton" id="boton8" onclick="asignar_numero(8)">8</div>
+                <div class="boton" id="boton9" onclick="asignar_numero(9)">9</div>
+                <div class="boton" id="boton=" onclick="realizar_operacion()">=</div>
             </div>
         </div>
     </div>
-    <script src="./scripts/sumar.js"></script>
+    <script src="./scripts/controller/controller_sumar.js" ></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+#calculadora{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#pantalla{
+display: flex;
+background-color: greenyellow;
+width: 400px;
+padding-top: 3%;
+padding-bottom: 3%;
+justify-content: center;
+font-size: 70px;
+border: 10px darkgray solid;
+}
+
+#teclado{
+display: flex;
+width: 420px;
+background-color: darkgray;
+flex-wrap: wrap;
+}
+
+.boton{
+font-size: 90px;
+padding: 15px;
+}
