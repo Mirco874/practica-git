@@ -1,0 +1,21 @@
+{
+  "name": "git_practica_2022",
+  "version": "1.0.0",
+  "description": "El siguiente proyecto fue desarrollado con el fin de poner en practica los conocimientos de programacion web\r ### Tecnologias\r La aplicacion fue desarrollada empleando las siguientes tecnologias\r 1. JavaScript\r 2. CSS\r 3. HTML\r ### Funciones\r - Sumar\r - Restar\r - Multiplicar\r - Dividir",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirco874/practica-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirco874/practica-git/issues"
+  },
+  "homepage": "https://github.com/Mirco874/practica-git#readme"
+}
