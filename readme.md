@@ -7,5 +7,5 @@ La aplicacion fue desarrollada empleando las siguientes tecnologias
 3. HTML
 ### Funciones
 - Sumar
-
-
+## diseño
+![calculadora web](https://calculator-1.com/images/screens/calculator_1.png)
